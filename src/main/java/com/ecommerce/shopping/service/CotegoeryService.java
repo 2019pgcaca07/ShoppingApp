@@ -9,4 +9,8 @@ public interface CotegoeryService {
     List<Cotegoery> getAllCotegoery();
 
     void createCotegoery(Cotegoery cotegoery);
+
+    String deleteCotegoery(Long CotegoeryId);
+
+    Cotegoery updateCotegoery(Cotegoery cotegoery, Long cotegoeryId);
 }
